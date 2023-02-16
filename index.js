@@ -13,7 +13,16 @@ volume (8, 5);
 
 
 function word (a) {
-  console.log(a.length);
+  console.log("The string length " + a.length);
 }
 word ("Hello");
 
+function evenOdd (num) { 
+  if (num % 2 === 0) {
+    console.log ("num is even " + num )
+  }
+  else  {
+    console.log ("num is odd " + num);
+  }
+}
+evenOdd (5);
