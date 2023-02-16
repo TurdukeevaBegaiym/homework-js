@@ -38,3 +38,9 @@ function sqrt (number) {
   console.log (result);
 }
 sqrt (25);
+
+function pentagon (a, b, c, d, e) {
+  let result = a + b + c + d + e;
+  console.log ("perimeter of a pentagon " + result);
+}
+pentagon (2,6,8,4,5);
