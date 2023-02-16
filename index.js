@@ -44,3 +44,8 @@ function pentagon (a, b, c, d, e) {
   console.log ("perimeter of a pentagon " + result);
 }
 pentagon (2,6,8,4,5);
+
+
+for (let i = 0; i <= 33; i += 3) {
+  console.log(i);
+}
