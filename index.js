@@ -32,3 +32,9 @@ function square (n) {
   console.log("The square of this number is " + sq)
 }
 square (5);
+
+function sqrt (number) {
+  let result = number / 2 ;
+  console.log (result);
+}
+sqrt (25);
