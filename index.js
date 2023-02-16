@@ -26,3 +26,9 @@ function evenOdd (num) {
   }
 }
 evenOdd (5);
+
+function square (n) {
+  let sq = n ** 2;
+  console.log("The square of this number is " + sq)
+}
+square (5);
