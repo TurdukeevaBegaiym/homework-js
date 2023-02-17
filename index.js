@@ -34,8 +34,7 @@ function square (n) {
 square (5);
 
 function sqrt (number) {
-  let result = number / 2 ;
-  console.log (result);
+  console.log (Math.sqrt(number));
 }
 sqrt (25);
 
@@ -51,11 +50,12 @@ for (let i = 0; i <= 33; i += 3) {
 }
 
 //11
-let d = 1
-let c = 25
+let d = (1, 25)
 let total = 0;
 for (let i = 0 ; i < 25; i++){
+  let n = d[i];
   total = total + d;
+
 }
 console.log (total);
 
@@ -65,3 +65,10 @@ students.unshift("Myrza", "Saule", "Baitur");
 students.push("Jyldyz", "Dameli");
 
 console.log(students);
+
+
+//19
+let funcName = ["Erjan","Dali","Myrza"];
+for (let i = 0; i < funcName.length; i++) {
+  console.log= ("Hello" + funcName[i] );
+}
