@@ -84,6 +84,14 @@ students.push("Jyldyz", "Dameli");
 
 console.log(students);
 
+//15 
+let example4 = [1, 8, 5, 6, 4];
+for (let i = 0; i < example4.length; i++) {
+  if (example4[i] % 2 === 0 ) {
+    console.log (example4[i])
+  }
+  
+}
 
 //19
 let funcName = ["Erjan","Dali","Myrza"];
