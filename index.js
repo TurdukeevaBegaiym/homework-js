@@ -63,6 +63,13 @@ for (let i = 0; i <= san; i++) {
   
 }
 
+//12 
+for (a = 0; a <= 20; a++) {
+  if ( a % 2 === 0) {
+    console.log(a);
+  }
+}
+
 //14
 let students = ["Begaiym", "Asan"]
 students.unshift("Myrza", "Saule", "Baitur");
