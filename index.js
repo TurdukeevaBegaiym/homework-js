@@ -92,6 +92,10 @@ for (let i = 0; i < example4.length; i++) {
   }
   
 }
+//17 
+let example6 = ["i", "like","to", "eat!"];
+  let result = "i " + "like " + "to " + "eat! ";
+  console.log(result);
 
 //19
 let funcName = ["Erjan","Dali","Myrza"];
