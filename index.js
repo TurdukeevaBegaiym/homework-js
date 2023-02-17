@@ -6,7 +6,7 @@ functionName("Begaiym " , " Turdukeeva");
 
 
 function volume (height, radius) {
-  let result = height * 3.14 * radius ** 2 / 3 ;
+  let result = (height * 3.14 * radius ** 2) / 3 ;
   console.log ("cylinder volume is " + result);
 } 
 volume (8, 5);
@@ -49,3 +49,19 @@ pentagon (2,6,8,4,5);
 for (let i = 0; i <= 33; i += 3) {
   console.log(i);
 }
+
+//11
+let d = 1
+let c = 25
+let total = 0;
+for (let i = 0 ; i < 25; i++){
+  total = total + d;
+}
+console.log (total);
+
+//14
+let students = ["Begaiym", "Asan"]
+students.unshift("Myrza", "Saule", "Baitur");
+students.push("Jyldyz", "Dameli");
+
+console.log(students);
