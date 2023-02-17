@@ -69,6 +69,13 @@ for (a = 0; a <= 20; a++) {
     console.log(a);
   }
 }
+//13 
+for (a = 0; a <= 15; a++) {
+  if ( a % 2 ==! 0) {
+    console.log(a);
+  }
+}
+
 
 //14
 let students = ["Begaiym", "Asan"]
