@@ -1,3 +1,4 @@
+
 function functionName (b,t) {
   let result = b + t;
   console.log("My name is " + result);
@@ -70,5 +71,6 @@ console.log(students);
 //19
 let funcName = ["Erjan","Dali","Myrza"];
 for (let i = 0; i < funcName.length; i++) {
-  console.log= ("Hello" + funcName[i] );
+  console.log(" Hello " + funcName[i] );
 }
+
